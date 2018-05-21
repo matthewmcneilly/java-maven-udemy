@@ -2,16 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
+  <groupId>com.mmcneilly.product</groupId>
+  <artifactId>productparent</artifactId>
+  <version>1.0</version>
+  <packaging>pom</packaging>
 
-	<parent>
-		<groupId>com.mmcneilly.product</groupId>
-		<artifactId>productparent</artifactId>
-		<version>1.0</version>
-	</parent>
-  <artifactId>productservices</artifactId>
-  <packaging>jar</packaging>
-
-  <name>productservices</name>
+  <name>productparent</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -25,10 +21,9 @@
 		<version>4.12</version>
 		<scope>test</scope>
 	</dependency>
-	<dependency>
-		<groupId>org.springframework</groupId>
-		<artifactId>spring-context</artifactId>
-		<version>5.0.6.RELEASE</version>
-	</dependency>
   </dependencies>
+  <modules>
+    <module>productservices</module>
+    <module>productweb</module>
+  </modules>
 </project>

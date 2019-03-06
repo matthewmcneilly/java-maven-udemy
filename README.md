@@ -1,5 +1,5 @@
 # Introduction
- A Udemy course on creating a multi module Maven/Java web application.
+ A [Udemy course](https://www.udemy.com/mavencrashcourse/learn/v4/content) on creating a multi module Maven/Java web application.
 
 # Requirements
 * JDK

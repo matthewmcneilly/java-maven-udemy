@@ -2,9 +2,9 @@
  A Udemy course on creating a multi module Maven/Java web application.
 
 # Requirements
-JDK
-Eclipse
-Tomcat
+* JDK
+* Eclipse
+* Tomcat
 
 
  # Install

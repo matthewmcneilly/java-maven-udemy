@@ -8,8 +8,8 @@
 		<artifactId>productparent</artifactId>
 		<version>1.0</version>
 	</parent>
-  <artifactId>productservices</artifactId>
-  <packaging>jar</packaging>
+	<artifactId>productservices</artifactId>
+	<packaging>jar</packaging>
 
   <name>productservices</name>
   <url>http://maven.apache.org</url>
